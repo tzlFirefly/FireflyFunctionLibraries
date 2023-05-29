@@ -16,7 +16,7 @@ class FIREFLYFUNCTIONLIBRARIES_API UFireflyMathLibrary : public UBlueprintFuncti
 
 public:
 	/** 获取一个百分比概率触发的结果 */
-	UFUNCTION(BlueprintPure, Category = "Math|FireflyRandom")
+	UFUNCTION(BlueprintPure, Category = "Firefly|Math")
 	static bool GetPercentageProbability(float InPercent);
 	
 };
